@@ -1,0 +1,23 @@
+{
+  "name": "if.mokei",
+  "version": "0.0.1",
+  "author": "Izabela Furdzik",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furdzik/mokei.git"
+  },
+  "scripts": {
+
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  }
+}

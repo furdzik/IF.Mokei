@@ -1,0 +1,24 @@
+{
+  "processors": [
+    "stylelint-processor-styled-components"
+  ],
+  "extends": [
+    "@furdzik/stylelint-config"
+  ],
+  "rules": {
+    "max-nesting-depth": [
+      5,
+      {
+        "ignoreAtRules": [
+          "at-root",
+          "content",
+          "extend",
+          "function",
+          "include",
+          "mixin",
+          "return"
+        ]
+      }
+    ]
+  }
+}
