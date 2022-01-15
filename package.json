@@ -6,18 +6,15 @@
     "type": "git",
     "url": "git+https://github.com/furdzik/mokei.git"
   },
-  "scripts": {
-
-  },
+  "scripts": {},
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
     }
   },
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
-
+    "@furdzik/commitlint-config": "0.0.3",
+    "@furdzik/eslint-config": "0.0.6"
   }
 }

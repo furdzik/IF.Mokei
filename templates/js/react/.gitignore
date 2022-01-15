@@ -17,6 +17,7 @@ node_modules/
 
 # env
 .env
+.env.local
 .env.production
 .env.development
 
@@ -29,6 +30,7 @@ reports/
 
 # Builds
 dist/
+build/
 storybook-static/
 
 # IDE / text editor data
