@@ -6,7 +6,11 @@
     "type": "git",
     "url": "git+https://github.com/furdzik/mokei.git"
   },
-  "scripts": {},
+  "scripts": {
+    "lint": "eslint src/ --ext .js",
+    "find-duplicates": "jscpd ./src/",
+    "prepare": "husky install"
+  },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
@@ -14,7 +18,15 @@
   },
   "dependencies": {},
   "devDependencies": {
+    "@babel/core": "7.16.7",
+    "@babel/eslint-parser": "7.16.5",
+    "@babel/plugin-transform-runtime": "7.16.8",
+    "@babel/preset-env": "7.16.8",
     "@furdzik/commitlint-config": "0.0.3",
-    "@furdzik/eslint-config": "0.0.6"
+    "@furdzik/eslint-config": "0.0.6",
+    "babel-plugin-module-resolver": "4.1.0",
+    "eslint": "8.6.0",
+    "husky": "7.0.4",
+    "jscpd": "3.4.5"
   }
 }

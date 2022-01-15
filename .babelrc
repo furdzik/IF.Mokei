@@ -1,0 +1,20 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "loose": true,
+      "shippedProposals": true
+    }]
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    ["module-resolver", {
+      "alias": {
+        "@mocks": "./__mocks__",
+        "@root": "./src",
+        "@constants": "./src/constants",
+        "@config": "./src/config",
+        "@utils": "./src/utils"
+      }
+    }]
+  ]
+}
