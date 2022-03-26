@@ -1,6 +1,6 @@
 ## Template
 
-Change all the names in `{...}`:
+Change all the names in brackets:
 - `{repoName}`
 - `{port}`
 - `{netlify-preview-domain}`
