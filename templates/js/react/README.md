@@ -1,4 +1,4 @@
-## Template
+# Template
 
 Change all the names in brackets:
 - `{repoName}`

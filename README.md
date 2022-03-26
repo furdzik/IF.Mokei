@@ -13,7 +13,20 @@ I chose this name because it reflects the meaning of this repository.
 
 # How to use IF.Mokei
 
+
+
 ### Quick Start
+
+#### Now - by hand
+
+- [React JS App](templates/js/react/README.md)
+- React TS App
+- Gatsby JS App
+- Gatsby TS App
+- NextJS JS App
+- NextJS TS App
+
+#### In the future - by tool
 
 [WORK IN PROGRESS]
 
@@ -26,6 +39,6 @@ npm start
 - languageType: `js` or `ts`
 - projectType: `react`, `next`, `gatsby`
 
+<!--
 ### What will you get?
-
-@TODO
+-->
