@@ -1,10 +1,15 @@
 const { resolve } = require('path');
-const { LoaderOptionsPlugin } = require('webpack');
+const { LoaderOptionsPlugin, DefinePlugin } = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+const dotenv = require('dotenv');
 
 const { version } = require('../../package');
 
-module.exports = ({ production }) => ({
+module.exports = ({ production }) => {
+  const envVariables = dotenv.config().parsed;
+
+  return {
     resolve: {
       extensions: ['.js', '.jsx', '.json'],
       mainFields: ['browser', 'main', 'module'],
@@ -76,6 +81,11 @@ module.exports = ({ production }) => ({
           removeComments: false,
           removeEmptyAttributes: true
         }
+      }),
+      new DefinePlugin({
+        NODE_ENV: JSON.stringify(envVariables.NODE_ENV),
+        APP_URL: JSON.stringify(envVariables.APP_URL)
       })
     ]
-  });
+  };
+};

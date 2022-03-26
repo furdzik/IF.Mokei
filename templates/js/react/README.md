@@ -1,6 +1,8 @@
 ---------------- to remove --------------------------------
 ### Template
 
+**This is React app with redux**
+
 Change all the names in brackets:
 - `{repoName}`
 - `{port}`
@@ -53,7 +55,7 @@ Status:
 
 ## Contributing
 
-If you want to contribute read the [contributing guidelines]() before opening an issue.
+If you want to contribute read the [contributing guidelines](CONTRIBUTING.md) before opening an issue.
 
 ---
 
