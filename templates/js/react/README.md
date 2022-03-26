@@ -1,3 +1,4 @@
+---------------- to remove --------------------------------
 # Template
 
 Change all the names in brackets:
@@ -7,8 +8,7 @@ Change all the names in brackets:
 - `{netlify status}`
 - `{app title}`
 
----
----
+---------------- to remove --------------------------------
 
 # {repoName}
 
